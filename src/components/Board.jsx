@@ -82,9 +82,9 @@ export default function Board() {
       </div>
       </div>
       
-      <motion.button
-      initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{duration: .3}}  whileHover={{scale: 1.25}}
-     onClick={handlePlayAgain} className="px-2 py-1 bg-gradient-to-r from-sky-600 to-purple-600 rounded-lg text-neutral-300 mt-4 font-bold z-50">play Again</motion.button>
+      <button
+      // initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{duration: .3}}  whileHover={{scale: 1.25}}
+     onClick={handlePlayAgain} className="px-2 py-1 bg-gradient-to-r from-sky-600 to-purple-600 rounded-lg transition-transform duration-150 ease-in-out hover:scale-110 text-neutral-300 mt-4 font-bold z-50">play Again</button>
       
     </div>
   )
