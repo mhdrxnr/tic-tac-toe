@@ -1,6 +1,6 @@
 
 
-import Square from "./square";
+import Square from "./Square";
 import { useState } from "react";
 import { delay, easeIn, easeInOut, motion } from "motion/react"
 
