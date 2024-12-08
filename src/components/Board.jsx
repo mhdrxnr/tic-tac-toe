@@ -31,9 +31,7 @@ export default function Board() {
         setXnext(!Xnext);
     }
     const handlePlayAgain = ()=>{
-      if(!tic.includes(null)){
         setTic(Array(9).fill(null));
-      }
     }
 
     const container = (delay)=>({
