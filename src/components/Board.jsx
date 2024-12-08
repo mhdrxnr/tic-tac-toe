@@ -31,7 +31,9 @@ export default function Board() {
         setXnext(!Xnext);
     }
     const handlePlayAgain = ()=>{
+      if(winnerIs || !winnerIs || tic){
         setTic(Array(9).fill(null));
+      }
     }
 
     const container = (delay)=>({
